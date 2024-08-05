@@ -1,0 +1,847 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.044);
+  
+}
+
+/*----------------------------------------------header starts-----------*/
+.header{
+  
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.wrapper{
+  
+  width: 100%;
+  position: fixed;
+  height: 100px;
+  display: flex;
+  background-color:rgba(0, 0, 0, 0.609);
+  z-index: 10000;
+  justify-content:left;
+}
+
+
+
+
+.header-blk{
+  color: white;
+  
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.header h5{
+  font-size: 25px;
+  
+  margin-left: 200px;
+  margin-top: 35px;
+}
+
+.header-whole-block{
+  
+  display: flex;
+  justify-content: center;
+  height: 935px;
+  min-width: 1950px;
+}
+.wrapper-whole-block{
+  
+  
+  background: linear-gradient(rgba(43, 0, 87, 0.371), rgba(2, 41, 133, 0.381)),url(img/welcome-banner.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-head-blk{
+   
+  
+   width: 1000px;
+   height: 15%;
+   display: flex;
+}
+
+.main-head-blk h3{
+  
+  text-transform: uppercase;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.8em;
+  font-weight: bolder;
+  word-spacing: 0.2px;
+ 
+  margin: 35px 30px;
+
+}
+
+.description-header-blk {
+  
+  width: 1000px;
+  height: 12%;
+  
+  display: flex;
+  justify-content: center;
+}
+.description-header-blk p{
+  font-size: 18px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  line-height:35px ;
+  width: 70%;
+  letter-spacing: 0.2px;
+
+}
+
+.contact-btn-blk {
+  
+  width: 1000px;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-btn-blk button{
+ width: 230px;
+ height: 60px;
+ color: white;
+ background-color: rgba(65, 65, 245, 0.815);
+ font-size: 18px;
+ border: none;
+}
+/*----------------------------------------------header ends-----------*/
+
+/*----------------------------------------------nav links starts-----------*/
+
+.nav-link{
+  
+  height: 150px;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.wrapper-nav{
+  
+  width: 1200px;
+  margin-top: -150px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.115);
+}
+/*-------------------------*/
+.form-blk-1{
+  
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.frm-top-1{
+  
+  height: 50%;
+  display: flex;
+  
+  justify-content: center;
+}
+
+.form-top-1{
+  
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.label-top-1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  opacity: 0.8;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.label-top-1 label{
+ font-size: 20px;
+ margin-top: 25px;
+}
+
+.select-top-1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.select-top-1 select{
+  border: none;
+  width: 50%;
+  height: 15px;
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+
+.frm-down-1{
+  
+  height: 50%;
+}
+/*--------------------*/
+
+.form-blk-2{
+  
+  width: 25%;
+}
+.frm-top-2{
+  
+  height: 50%;
+}
+.frm-down-2{
+  
+  height: 50%;
+}
+
+/*----------------------*/
+
+.form-blk-3{
+ 
+  width: 25%;
+}
+
+.frm-top-3{
+  
+  height: 50%;
+}
+.frm-down-3{
+  
+  height: 50%;
+}
+
+/*------------*/
+
+.frm-btn{
+  
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frm-btn input{
+  background-color: rgba(31, 31, 240, 0.817);
+  border: none;
+  height: 50px;
+  width: 150px;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*------------------------nav link ends---------------------------------------*/
+
+/*------------------------main-description starts---------------------------------------*/
+
+.main-description{
+  
+  height: 600px;
+  margin: 50px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-description{
+  width: 100%;
+  
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.description-blk-1{
+  
+  width: 380px;
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+}
+.description-1{
+    
+    height: 80%;
+    border: 0.5px solid  rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+}
+
+.descr-img-1 img{
+  width: 60px;
+  margin: 40px 0px;
+}
+
+.d-head-1{
+  
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.7;
+}
+.d-para-1{
+  flex: 2;
+  font-size: small;
+  width: 60%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 0.7;
+  margin: 20px 0px;
+  overflow: hidden;
+}
+/*-------*/
+.description-blk-2{
+  
+  width: 380px;
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.description-blk-3{
+  
+  width: 380px;
+  margin: 0px 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*------------------------------------------------newest cars-------*/
+
+.newest-cars{
+  
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.wrapper-newest-cars{
+  
+  min-width: 1300px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.head-newest-cars{
+  
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.head-newest-cars h6{
+  
+  flex: 0.2;
+  align-self: center;
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  opacity: 0.9;
+}
+.head-newest-cars h3{
+  
+  flex: 1;
+  align-self: center;
+  font-size: 45px;
+  text-transform: capitalize;
+  opacity: 0.9;
+}
+.new-car-details{
+display: flex;
+
+}
+
+.new-car-head {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.new-car-head .div1new{
+  
+  height: 20%;
+  width: 80%;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  
+}
+.new-car-head .div1new h3{
+  text-transform: capitalize;
+}
+
+.new-car-head .div2new{
+  
+  height: 50%;
+  width: 80%;
+  overflow: auto;
+  font-size: 20px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.new-car-head .div3new{
+  
+  height: 34%;
+  margin-left: 30px;
+  width: 80%;
+  display: flex;
+  opacity: 0.9;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-car-head .div3new button{
+  height: 60px;
+  width: 160px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(100, 100, 255);
+  border: none;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+/*---------------------------Featured cars section---------------------*/
+.featured-cars{
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-featured-cars{
+  
+  height: 1500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.featured-cars-head{
+ 
+  width: 1300px;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.featured-cars-head h6
+{
+  
+  text-transform: capitalize;
+  color: rgba(6, 6, 6, 0.841);
+    
+}
+.featured-cars-head h3
+{ font-size: 35px;
+  
+  text-transform: capitalize;
+  margin: 10px 0px;
+  color: rgba(6, 6, 6, 0.841);
+}
+/*------------*/
+.featured-cars-images{
+  
+  width: 1300px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-image-top{
+  
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.featured-image-top-1{
+  
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.f-car-img{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.f-img-blk
+{
+  
+  flex: 3;
+  border: 0.1px solid rgba(0, 0, 0, 0.327);
+  border-radius: 2px 2px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-collapse: collapse;
+}
+.f-model
+{
+  
+  flex: 1;
+  border: 0.1px solid rgba(0, 0, 0, 0.328);
+  border-radius:0 0 2px 2px;
+  display: flex;
+  justify-content: center;
+  
+}
+.f-model p{
+  font-size:20px ;
+  text-transform: capitalize;
+  font-size: 12px;
+  opacity: 0.8;
+  width: 80%;
+}
+
+.f-car-head{
+  flex: 0.5;
+  
+}
+.f-car-head h5{
+  opacity: 0.8;
+  margin: 20px 0px;
+}
+
+.f-car-des{
+  flex: 1;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+
+.featured-image-top-2{
+  
+  width: 250px;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-image-top-3{
+  
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-image-top-4{
+  
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*----*/
+.featured-image-bottom{
+  
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+/*-------------------------------------client heading----------*/
+.client-heading{
+
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.wrapper-client-heading{
+ 
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-family: monospace;
+  opacity: 0.8;
+}
+
+/*-----------------------clients section starts--------------*/
+.clients-section{
+  
+  height: 300px;
+  margin: 100px 0px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.wrapper-clents-section{
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+}
+
+.comments{
+  width: 250px;
+  margin: 25px 0px;
+}
+
+.client-blk-1{
+  
+  width: 350px;
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  justify-content: center;
+  opacity: 0.8;
+  border: 1px solid rgba(0, 0, 0, 0.391);
+  border-radius: 2px;
+}
+
+.client-blk-2{
+  
+  width: 350px;
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  justify-content: center;
+  opacity: 0.8;
+  border: 1px solid rgba(0, 0, 0, 0.391);
+  border-radius: 2px;
+
+}
+
+.client-blk-3{
+  
+  width: 350px;
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  justify-content: center;
+  opacity: 0.8;
+  border: 1px solid rgba(0, 0, 0, 0.391);
+  border-radius: 2px;
+}
+
+/*----------------------------brand logos-------------------------------------*/
+
+.brand-logos{
+  
+  display: flex;
+  justify-content: center;
+  height: 250px;
+}
+
+.wrapper-brand-logos{
+  
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-1{
+  margin: 0px 40px;
+}
+
+/*-----------------------Footer----------------------------------*/
+
+.footer{
+  
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold',sans-serif;
+
+}
+
+.wrapper-footer{
+  background-color: rgba(3, 2, 63, 0.87);
+  width: 2000px;
+  height: 100%;
+  
+  display: flex;
+  flex-direction: column;
+
+}
+
+.top-footer{
+  
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold',sans-serif;
+}
+/*------------------*/
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/*------------------*/
+.top-footer-p1{
+  
+  width:300px;
+  margin: 0px 60px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  justify-content: center;
+
+  color: white;
+
+}
+.footer-head{
+
+ margin: 35px 0px;
+ font-size: 30px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold',sans-serif;
+}
+.footer-description{
+  
+  margin: 35px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold',sans-serif;
+}
+.footer-contact{
+  
+  margin: 35px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold',sans-serif;
+}
+
+/*---------------------------*/
+
+.top-footer-p2{
+  
+  width:200px;
+  margin: 0px 60px;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.about-head{
+  
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold',sans-serif;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-top: 80px;
+}
+
+.top-footer-p2 nav{
+  
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  line-height: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold',sans-serif;
+  color: white;
+}
+/*---------------------------*/
+.top-footer-p3{
+  
+  width:200px;
+  margin: 0px 60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-brands{
+  display: flex;
+  align-items: end;
+  flex: 1;
+  margin: 10px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold',sans-serif;
+  text-transform: capitalize;
+  color: white;
+  font-size: 16px;
+}
+
+.brands{
+  line-height: 40px;
+  flex: 3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold',sans-serif;
+  color: white;
+  font-size: 18px;
+}
+/*-------------------*/
+.top-footer-p4{
+  background-color: yellow;
+  width:50px;
+  margin: 0px 20px;
+}
+/*-------------------*/
+.top-footer-p5{
+  background-color: yellow;
+  width:80px;
+  margin: 0px 20px;
+}
+
+/*------------------------------*/
+.bottom-footer{
+  
+  flex: 0.2;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  color: white;
+  font-size: smaller;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
