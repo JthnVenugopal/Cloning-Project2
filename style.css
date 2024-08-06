@@ -81,16 +81,14 @@ body{
 }
 
 .main-head-blk h3{
-  
+
   text-transform: uppercase;
   color: white;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.8em;
-  font-weight: bolder;
+  font-weight: 900;
   word-spacing: 0.2px;
- 
-  margin: 35px 30px;
-
+  margin: 40px 172px;
 }
 
 .description-header-blk {
