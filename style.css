@@ -106,9 +106,10 @@ body{
   color: white;
   font-family: sans-serif;
   font-weight: 600;
-  line-height:35px ;
-  width: 70%;
+  line-height: 35px;
+  width: 71%;
   letter-spacing: 0.2px;
+  word-spacing: 1px;
 
 }
 
