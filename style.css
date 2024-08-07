@@ -27,7 +27,6 @@ body{
   height: 100px;
   display: flex;
   background-color:rgba(0, 0, 0, 0.609);
-  z-index: 10000;
   justify-content:left;
 }
 
